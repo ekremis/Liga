@@ -1,0 +1,30 @@
+html, input, select, button { font-family: 'Catamaran', sans-serif; }
+	
+input, select { color:#666;}
+	
+select { text-align:center;}
+
+button { font-size:10px;}
+
+.banner img {
+	max-width: 100%; 
+	max-height: 100%; }
+	
+.display-text {
+    color: white;
+    position: relative;
+    top: -400px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.h1class { line-height: 60px;}
+
+/* overwrite / add in bootstrap classes */
+.form-control {
+    display: inline-block!important;
+    width: 160px!important;
+}
+
+.table { margin-top: 15px; }
+	
